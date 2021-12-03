@@ -1,0 +1,13 @@
+Variable et Types des donnes
+Output/Input
+Expréssion et opérateurs
+Condition
+Loops
+       | Stucture de donnes
+Arrays
+Function
+Objects | P.O.O
+Events  | P.E
+Dom     | HTML/JS
+___________
+Une ligne de code : Instraction  - ordre
