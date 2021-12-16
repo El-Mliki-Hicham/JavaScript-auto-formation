@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // declaration des variables
+
+            var trouve;
+            var userInput;
+            var i;
+           var listNumbers ;
+
+
+            // entre 
+
+            trouve = false;  
+            listNumbers = []
+            listNumbers[0] = 1;
+            listNumbers[1] = 30;
+            listNumbers[2] = 4;
+            listNumbers[3] = 7;
+            listNumbers[4] = 9;
+           
+        
+
+            // affichage
+        
+
+            userInput = prompt('Entrez une valeur pour userInput');
+            for (i = 0; i <= 4; i++) {
+                if (userInput == listNumbers[i]) {
+                    trouve = true;
+                    break 
+                }
+            }
+            if (trouve) {
+            
+              
+                alert("oui le numéro existe");
+
+            } else {
+
+                alert("le numéro n'existe pas");
+            }
+        
+    </script>
+</body>
+
+</html>
