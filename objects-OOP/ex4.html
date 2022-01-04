@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //declaration
+        class commande {
+            constructor(produit, prix) {
+                this.produit = produit;
+                this.prix = prix;
+            }
+            //traitement.nom complet
+            detailDeCommande() {
+                var detailDeCommande = `${this.produit}, ${this.prix}`;
+                return detailDeCommande
+            }
+
+        }
+        //saiser 
+        const cmd1 = new commande('phone S5', '4500DH');
+        const cmd2 = new commande ('phone A3','3600DH');
+        //affichage
+        console.log(cmd1.detailDeCommande());
+        console.log(cmd2.detailDeCommande());
+    </script>
+</body>
+                                                                                                    
+</html>
