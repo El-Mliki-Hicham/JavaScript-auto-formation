@@ -9,22 +9,25 @@
 </head>
 
 <body>
-    <script> 
-        class student {
-            constructor(name, age, ) {
-                this.name = name;
-                this.age = age;
-              
-            }
-           fullName() {
-                console.log(`I'm ${this.name}, ${this.age}, years old.`);
+    <script>
+        //declaration
+        class commande {
+          
+            detailDeCommande() {
+                var detailDeCommande = this.produit + " " + this.prix;
+
+                return detailDeCommande;
             }
 
-        }
-        const st1 = new student('hicham', 20);
-        st1.fullName();
-        const st2 = new student('amina', 22, );
-        st2.fullName();
+        }                                                                                               
+
+        //saiser 
+        const cmd1 = new commande();
+        cmd1.produit = 'phone';
+        cmd1.prix = '3000DH';
+        //affichage
+
+        console.log(cmd1.detailDeCommande());
     </script>
 </body>
 
