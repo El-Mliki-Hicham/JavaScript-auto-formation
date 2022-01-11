@@ -1,0 +1,12 @@
+[
+    {
+        "firstName":"hicham" ,
+        "lastName":"El Mliki"
+    },
+
+    {
+        "firstName":"salma" ,
+        "lastName":"dahemi"
+    }
+
+]
