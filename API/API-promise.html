@@ -8,20 +8,16 @@
 </head>
 <body>
     <script>
-        //declaration
-        class commande {
-        produit ;
-        prix; 
+    async function get(){
+ 
+        var reponse= await    fetch  ("https://api.github.com/users/defunkt")
+        var data  = await reponse.json()
+        
+        console.log(data)
+        
+        
+        
         }
-
-        var cm1= new commande () 
-    //saiser 
-    cm1.produit='phone';
-    cm1.prix='1200DH';
-    
-        //affichage
-       console.log(cm1)  
-
-    </script>
+        get()</script>
 </body>
 </html>
