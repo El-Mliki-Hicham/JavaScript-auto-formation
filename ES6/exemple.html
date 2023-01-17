@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello</h1>
+
+    <input type="text" name="input" id="input">
+    
+    <button onclick="HandleClick()">Click me</button>
+
+    <tr id="demo">
+    
+    </tr>
+</body>
+
+
+<script>
+
+    function HandleClick() {
+    const addElements=()=>{
+   let input= document.getElementById('input').value
+   var td =  document.createElement('tr')
+   td.innerHTML= input
+document.body.appendChild(td);
+}
+addElements()
+
+removeValue=()=>{
+    let inpsut= document.getElementById('input').value = null
+    
+}
+removeValue()
+}
+
+</script>
+</html>
